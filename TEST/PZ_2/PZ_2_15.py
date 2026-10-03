@@ -1,11 +1,16 @@
 #Дано трехзначное число. Вывести вначале его последнюю цифру
 #(единицы), а затем — его среднюю цифру (десятки).
-num = int(input("введи трихзначное число "))
-if num >= 100 and num < 1000:
-    last_num= num % 10
-    mid_num = (num // 10) % 10
-    print("ластовая цифра",last_num)
-    print("средняя цифра",mid_num)
-else:
-    print("введи число с 3 циферками")
+try:
+    num = int(input("введи трихзначное число "))
+    if num >= 100 and num < 1000:
+        last_num= num % 10
+        mid_num = (num // 10) % 10
+        print("ластовая цифра",last_num)
+        print("средняя цифра",mid_num)
+    else:
+        print("введи число с 3 циферками")
+except ValueError:
+    print("введи число")
+    
+
 
