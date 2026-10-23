@@ -11,6 +11,5 @@ try:
         print("введи число с 3 циферками")
 except ValueError:
     print("введи число")
-    vxcvxcv
 
 
