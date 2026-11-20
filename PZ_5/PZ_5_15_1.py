@@ -1,6 +1,6 @@
 # Составить функцию, которая выведет на экран строку, содержащую задаваемое с клавиатуры число символов
 
-def str(n):
+def strr(n):
     print(n*"#")
 while True:
     try:
@@ -8,7 +8,7 @@ while True:
         break
     except ValueError:
         print("только число")
-str(n)
+strr(n)
 
 
     
