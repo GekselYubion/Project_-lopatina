@@ -12,4 +12,4 @@ for i in range(n - 1):
 
 a[-1] = first
 
-print(a)  # Выведет: [20, 30, 40, 50, 10]
+print(a)  
